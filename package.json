@@ -1,0 +1,47 @@
+{
+  "name": "torrentapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js production",
+    "dev": "nodemon -e js,json src/server.js production",
+    "test": "jest"
+  },
+  "keywords": [
+    "torrent",
+    "torrent-api",
+    "api",
+    "nodejs",
+    "javascript",
+    "torrents",
+    "api-client"
+  ],
+  "author": "Danilo Rodrigues",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mydanilows/torrentapi/issues"
+  },
+  "homepage": "https://github.com/mydanilows/torrentapi#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mydanilows/torrentapi.git"
+  },
+  "private": false,
+  "dependencies": {
+    "celebrate": "^12.0.1",
+    "consign": "^0.1.6",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "knex": "^0.20.13",
+    "moment": "^2.24.0",
+    "morgan": "^1.10.0",
+    "sqlite3": "^4.1.1"
+  },
+  "devDependencies": {
+    "jest": "^25.3.0",
+    "nodemon": "^2.0.2",
+    "supertest": "^4.0.2"
+  }
+}
